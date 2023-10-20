@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/Users/brianthoes/Library/Fonts/Signifier-Regular.otf)
+  }
+
 body {
     font-family: sans-serif;
     background-color: #F0E4D4;
@@ -6,7 +11,7 @@ body {
 
 .title {
     background-color: #D2C6B6;
-    height: 90vh;
+    height: 100vh;
 }
 
 .title h1 {
@@ -29,12 +34,31 @@ body {
 
 ul {
     position: fixed;
-    top: 5%;
+    top: 0%;
     padding-left: 10%;
 }
 
 .nav-list li {
     float: left;
     padding-right: 2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+.problem {
+    height: 50vh;
+}
+
+h2 {
+    font-size: 1rem;
+    padding: 5% 10%;
+    text-align: left;
+    font-family: "signifier";
+    font-style: italic;
+    font-weight: 800;
+}
+
+.problem-description {
+    padding-left: 10%;
+    width: 60%;
+    font-family: "signifier";
 }
