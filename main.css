@@ -1,4 +1,40 @@
 body {
     font-family: sans-serif;
-    background-color: beige;
+    background-color: #F0E4D4;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: #D2C6B6;
+    height: 90vh;
+}
+
+.title h1 {
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    color: #2E3192;
+    line-height: 5rem;
+    position: relative;
+    padding-left: 10%;
+    top: 70%;
+}
+
+.nav-list {
+    list-style-type: none;
+    font-family: "roc-grotesk", sans-serif;
+    font-weight: 200;
+}
+
+ul {
+    position: fixed;
+    top: 5%;
+    padding-left: 10%;
+}
+
+.nav-list li {
+    float: left;
+    padding-right: 2rem;
+    font-size: 1.5rem;
 }
