@@ -28,6 +28,10 @@ a:hover {
     padding-bottom: 3px;
 }
 
+#top {
+    padding-top: 120px;
+}
+
 img {
     width: 100%;
     padding-top: 60px;
