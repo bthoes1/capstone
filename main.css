@@ -23,13 +23,8 @@ a {
 }
 
 a:hover {
-    color: #3895FF;
-    border-bottom: 1px solid #3895FF;
+    border-bottom: 1px solid black;
     padding-bottom: 3px;
-}
-
-#top {
-    padding-top: 120px;
 }
 
 img {
@@ -38,11 +33,27 @@ img {
     padding-bottom: 60px;
 }
 
+.banner {
+    background-color: #FF5E4D;
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+    padding-left: 160px;
+}
+
+.banner h1 {
+    color: white;
+    letter-spacing: -.5rem;
+    font-size: 9rem;
+    line-height: 6.5rem;
+}
+
 h2 {
     font-size: 3rem;
     letter-spacing: -.15rem;
-    width: 40%;
+    width: 100%;
     line-height: 2.5rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .article-a {
@@ -50,35 +61,34 @@ h2 {
 }
 
 .article-container-left {
-    padding: 40px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.article-container-left p {
+.article-container-left p, ol {
    padding-left: 10%;
    padding-right: 30%;
 }
 
-.article-b {
-    background-color: white;
+ol {
+    padding-bottom: 120px;
 }
 
-.article-container-right {
-    padding: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
+.caption {
+    margin-top: -50px;
+    margin-left: -10%;
+    font-size: .75rem;
+    width: 80%;
 }
 
-.article-container-right h2 {
-    text-align: right;
+.triplet {
+    width: 32.33%;
+    margin-right: 1%;
+    float: left;
+    padding-bottom: 60px;
 }
 
-.article-container-right p {
-    padding-right: 10%;
-    padding-left: 30%;
-}
-
-.article-c {
-    background-color: white;
+.smaller-image {
+    width: 50%;
+    margin-left: 80px;
 }
