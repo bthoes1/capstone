@@ -93,6 +93,11 @@ ol {
     margin-left: 80px;
 }
 
+.half-pic {
+    width: 48%;
+    float: eft;
+}
+
 h3 {
     font-size: 2rem;
     letter-spacing: -.15rem;
