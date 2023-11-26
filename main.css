@@ -6,13 +6,13 @@ body {
     margin: 0 auto;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     position: fixed;
     right: 15%;
 }
 
-li {
+.nav li {
     float: left;
     padding-left: 20px;
 }
@@ -91,4 +91,34 @@ ol {
 .smaller-image {
     width: 50%;
     margin-left: 80px;
+}
+
+h3 {
+    font-size: 2rem;
+    letter-spacing: -.15rem;
+    width: 100%;
+    line-height: 2.5rem;
+    padding-bottom: 40px;
+}
+
+.footer {
+    color: white;
+    background-color: #807B76;
+    padding: 40px 120px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer ul a {
+    color: white;
+}
+
+.footer ul a:hover {
+    border-bottom: 1px solid white;
+}
+
+.footer li {
+    padding-bottom: 10px;
 }
